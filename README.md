@@ -1,16 +1,17 @@
-# mobilicis
+# Oru Phones - Flutter Application
 
-A new Flutter project.
+Oru Phones is a robust Flutter application that offers an optimal and interactive user experience. It is equipped with various features such as providers for HTTP requests, value-notifiers for UI updates, Firebase Cloud Messaging (FCM) for push notifications, singleton classes, infinite scroll for products, product filters, and reusable widgets for enhanced efficiency.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Providers for HTTP requests**: This application utilizes the Provider package for state management, allowing for GET and POST HTTP requests. 
 
-A few resources to get you started if this is your first Flutter project:
+- **ValueNotifier**: Instead of using setState, we leverage ValueNotifier to update the UI, enhancing efficiency and responsiveness.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Firebase Cloud Messaging (FCM)**: With FCM, the application offers real-time push notifications, improving user experience and engagement.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Singleton Class**: Singleton design pattern ensures a class has only one instance, and provides a global point of access to it, promoting optimal resource utilization.
+
+- **Infinite Scroll and Product Filters**: The application features an infinite scroll for products, creating a seamless browsing experience. Additionally, users can filter products to fine-tune their browsing.
+
+- **Reusable Widgets**: To reduce code redundancy and simplify development, reusable widgets are used throughout the application.
