@@ -1,17 +1,21 @@
-# Oru Phones - Flutter Application
+# Oru Phones
 
-Oru Phones is a robust Flutter application that offers an optimal and interactive user experience. It is equipped with various features such as providers for HTTP requests, value-notifiers for UI updates, Firebase Cloud Messaging (FCM) for push notifications, singleton classes, infinite scroll for products, product filters, and reusable widgets for enhanced efficiency.
+Oru Phones is a robust Flutter application built with a range of technologies and design patterns, offering a seamless and interactive phone shopping experience.
 
 ## Features
 
-- **Providers for HTTP requests**: This application utilizes the Provider package for state management, allowing for GET and POST HTTP requests. 
+- Providers: This project uses Providers for handling HTTP requests effectively. It helps in fetching and posting data while maintaining a clean architecture.
 
-- **ValueNotifier**: Instead of using setState, we leverage ValueNotifier to update the UI, enhancing efficiency and responsiveness.
+- ValueNotifier: This project leverages ValueNotifier for UI updates without the use of setState, making UI changes more efficient and less resource-consuming.
 
-- **Firebase Cloud Messaging (FCM)**: With FCM, the application offers real-time push notifications, improving user experience and engagement.
+- Firebase Cloud Messaging (FCM): FCM is used to send real-time push notifications to the users that open the notification on the notification screen
 
-- **Singleton Class**: Singleton design pattern ensures a class has only one instance, and provides a global point of access to it, promoting optimal resource utilization.
+- Search: A powerful search feature allows users to easily search for their desired phones within the application.
 
-- **Infinite Scroll and Product Filters**: The application features an infinite scroll for products, creating a seamless browsing experience. Additionally, users can filter products to fine-tune their browsing.
+- Singleton Class: Singleton design pattern is used for efficient resource utilization and to provide a global point of access.
 
-- **Reusable Widgets**: To reduce code redundancy and simplify development, reusable widgets are used throughout the application.
+- Infinite Scroll: To enhance the user experience, an infinite scroll feature has been implemented for products. This ensures a smooth browsing experience even with a large number of product listings.
+
+- Filters: Users can easily filter products based on their preferences, making the shopping experience more personalized and efficient.
+
+- Reusable Widgets: Reusable widgets are used throughout the application to reduce redundancy and ensure efficient code utilization.
