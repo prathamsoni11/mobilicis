@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683325740848",
+    "project_id": "mobilicis-cc732",
+    "storage_bucket": "mobilicis-cc732.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683325740848:android:d0ffbc9b0a81be493ddaf5",
+        "android_client_info": {
+          "package_name": "com.example.mobilicis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683325740848-is1sb87qggi0m57r5si29oc4r3pa46a6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjnOU1zdUjOtP6cGdxj7-DF7GRDz6Mt8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683325740848-is1sb87qggi0m57r5si29oc4r3pa46a6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
